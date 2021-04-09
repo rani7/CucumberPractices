@@ -1,0 +1,292 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-08T11:53:18.095Z",
+        "line": 39,
+        "name": "how to use examples",
+        "description": "",
+        "id": "sample;how-to-use-examples;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5003100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2003000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters bill amount 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_bill_amount(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3029800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters tax amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5998400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "final bill 102 is shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "102",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.final_bill_is_shown(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newtag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T11:53:18.317Z",
+        "line": 40,
+        "name": "how to use examples",
+        "description": "",
+        "id": "sample;how-to-use-examples;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters bill amount 102",
+            "match": {
+              "arguments": [
+                {
+                  "val": "102",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_bill_amount(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4999800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters tax amount \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "final bill 105 is shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "105",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.final_bill_is_shown(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newtag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-08T11:53:18.372Z",
+        "line": 41,
+        "name": "how to use examples",
+        "description": "",
+        "id": "sample;how-to-use-examples;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters bill amount 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_bill_amount(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user enters tax amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on submit",
+            "match": {
+              "location": "stepDefinitions.SampleSteps.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "final bill 202 is shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.SampleSteps.final_bill_is_shown(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newtag2"
+          }
+        ]
+      }
+    ],
+    "name": "sample",
+    "description": "",
+    "id": "sample",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/sample.feature",
+    "tags": []
+  }
+]
